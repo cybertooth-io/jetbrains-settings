@@ -10,22 +10,22 @@
       <option name="RHTML" value="true" />
     </context>
   </template>
-  <template name="debug" value="Ember.Logger.debug($END$);" description="Ember logger debug-level." toReformat="true" toShortenFQNames="true">
+  <template name="debug" value="console.debug($END$);" description="Ember logger debug-level." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="info" value="Ember.Logger.info($END$);" description="Ember logger info-level." toReformat="true" toShortenFQNames="true">
+  <template name="info" value="console.info($END$);" description="Ember logger info-level." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="warn" value="Ember.Logger.warn($END$);" description="Ember logger warn-level." toReformat="true" toShortenFQNames="true">
+  <template name="warn" value="console.warn($END$);" description="Ember logger warn-level." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="error" value="Ember.Logger.error($END$);" description="Ember logger error-level." toReformat="true" toShortenFQNames="true">
+  <template name="error" value="console.error($END$);" description="Ember logger error-level." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -123,11 +123,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="itran" value="import { translationMacro as t } from 'ember-i18n';" description="Import the Ember `t` macro inside an Ember class." toReformat="true" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="jshint" value="// jshint ignore:line" description="A javascript comment with: jshint ignore:line" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -153,6 +148,75 @@
     </context>
   </template>
   <template name="ihelpers" value="import StringHelpers from 'valet/tests/helpers/string-helpers';" description="Import our Valet's custom StringHelpers class." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fg" value="{{#twbs-form-group fieldErrors=$field_errors$}}&#10;$end$&#10;{{/twbs-form-group}}&#10;" description="{{twbs-form-group}}" toReformat="true" toShortenFQNames="true">
+    <variable name="field_errors" expression="" defaultValue="model.errors.fieldName" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>
+  <template name="destroy-old" value="destroy$modelCamelCased$($model$) {&#10;  const i18n = this.get('i18n');&#10;  if (confirm(i18n.t('models.$model$.confirm.destroy'))) {&#10;    $model$.destroyRecord()&#10;      .then((/*$model$Destroyed*/) =&gt; {&#10;        this.transitionTo('$success$')&#10;          .then((newRoute) =&gt; {&#10;            newRoute.get('notify')&#10;              .success(i18n.t('templates.common.notify.success.destroy', {&#10;                name: i18n.t('models.$model$.one')&#10;              }));&#10;          });&#10;      })&#10;      .catch((/*errors*/) =&gt; {&#10;        $model$.rollbackAttributes();&#10;        this.get('notify')&#10;          .error(i18n.t('templates.common.notify.error.destroy', {&#10;            name: i18n.t('models.$model$.one')&#10;          }));&#10;      });&#10;  }&#10;  return true;&#10;},&#10;" description="The boilerplate destroy action." toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="success" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="modelCamelCased" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="create" value="create$modelCamelCased$($model$) {&#10;  const i18n = this.get('i18n');&#10;  $model$.save()&#10;    .then((/*$model$Saved*/) =&gt; {&#10;      this.transitionTo('$success$')&#10;        .then((newRoute) =&gt; {&#10;          newRoute.get('notify')&#10;            .success(i18n.t('templates.common.notify.success.create', {&#10;              name: i18n.t('models.$model$.one')&#10;            }));&#10;        });&#10;    })&#10;    .catch((/*errors*/) =&gt; {&#10;      this.get('notify')&#10;        .error(i18n.t('templates.common.notify.error.create', {&#10;          name: i18n.t('models.$model$.one')&#10;        }));&#10;    });&#10;  return true;&#10;},&#10;" description="The boilerplate create action." toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="success" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="modelCamelCased" expression="" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="update" value="update$modelCamelCased$($model$) {&#10;  const i18n = this.get('i18n');&#10;  $model$.save()&#10;    .then((/*$model$Saved*/) =&gt; {&#10;      this.transitionTo('$success$')&#10;        .then((newRoute) =&gt; {&#10;          newRoute.get('notify')&#10;            .success(i18n.t('templates.common.notify.success.update', {&#10;              name: i18n.t('models.$model$.one')&#10;            }));&#10;        });&#10;    })&#10;    .catch((/*errors*/) =&gt; {&#10;      this.get('notify')&#10;        .error(i18n.t('templates.common.notify.error.update', {&#10;          name: i18n.t('models.$model$.one')&#10;        }));&#10;    });&#10;  return true;&#10;},&#10;" description="The boilerplate update action." toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="success" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="modelCamelCased" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pagetitle" value="{{#page-title as |pageTitle|}}&#10;  {{#if pageTitle.title?}}&#10;    $end$&#10;    &lt;small&gt;&lt;/small&gt;&#10;  {{/if}}&#10;  {{#if pageTitle.btnOptions?}}&#10;    {{#button-dropdown/options btnClass=&quot;btn-primary&quot;}}&#10;    {{/button-dropdown/options}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnReturnTo?}}&#10;    {{#button-dropdown/return-to}}&#10;    {{/button-dropdown/return-to}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnHelp?}}&#10;    {{buttons/help-button documentName=&quot;&quot;}}&#10;  {{/if}}&#10;{{/page-title}}&#10;" description="Create the page title component for all Valet screens." toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Handlebars" value="true" />
+    </context>
+  </template>
+  <template name="itran" value="import { translationMacro as t } from 'ember-i18n';" description="Import the Ember `t` macro inside an Ember class." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="save" value="save(model, $model$) {&#10;  const i18n = this.get('i18n');&#10;  bed.save()&#10;    .then((/*$model$Saved*/) =&gt; {&#10;      this.get('notify')&#10;        .success(i18n.t('templates.common.notify.success.save', {&#10;          name: i18n.t('models.$model$.one')&#10;        }));$end$&#10;    })&#10;    .catch((/*errors*/) =&gt; {&#10;      this.get('notify')&#10;        .error(i18n.t('templates.common.notify.error.save', {&#10;          name: i18n.t('models.$model$.one')&#10;        }));&#10;    });&#10;  return true;&#10;},&#10;" description="The boilerplate save action." toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="destroy" value="destroy(model, $model$) {&#10;  const i18n = this.get('i18n');&#10;  if (confirm(i18n.t('models.$model$.confirm.destroy', { $model$: $model$ }))) {&#10;    bed.destroyRecord()&#10;      .then((/*$model$Saved*/) =&gt; {&#10;        this.get('notify')&#10;          .success(i18n.t('templates.common.notify.success.destroy', {&#10;            name: i18n.t('models.$model$.one')&#10;          }));$end$&#10;      })&#10;      .catch((/*errors*/) =&gt; {&#10;        this.get('notify')&#10;          .error(i18n.t('templates.common.notify.error.destroy', {&#10;            name: i18n.t('models.$model$.one')&#10;          }));&#10;      });&#10;  }&#10;  return true;&#10;},&#10;" description="The boilerplate destroy action." toReformat="true" toShortenFQNames="true">
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="paramsFor" value="const params = this.paramsFor($route$);" description="Get the params for a particular route." toReformat="false" toShortenFQNames="true">
+    <variable name="route" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="modelFor" value="const $end$ = this.modelFor($route$);" description="Use modelFor to grab an instance from the route." toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
