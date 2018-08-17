@@ -1,8 +1,5 @@
 <application>
   <component name="ExternalResourceManagerImpl">
-    <resource url="http://schema.org/GeoCoordinates" location="$USER_HOME$/Library/Caches/WebStorm9/extResources/cc73c30_GeoCoordinates.html" />
-    <resource url="http://schema.org/LocalBusiness" location="$USER_HOME$/Library/Caches/WebStorm9/extResources/7dff9145_LocalBusiness.html" />
-    <resource url="http://www.adobe.com/xml/dtds/cross-domain-policy.dtd" location="$USER_HOME$/Library/Caches/WebStorm11/extResources/6b46bc32_cross-domain-policy.dtd" />
-    <ignored-resource url="http://www.sitemaps.org/schemas/sitemap/0.9" />
+    <resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" location="$USER_HOME$/Library/Caches/RubyMine2017.3/extResources/2889bd79_svg11.dtd" />
   </component>
 </application>

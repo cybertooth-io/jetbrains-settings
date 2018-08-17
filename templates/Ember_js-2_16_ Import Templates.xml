@@ -10,9 +10,9 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="iobject" value="import $emberObject$ { $methods$ } from '@ember/object';" description="Import the @ember/object" toReformat="true" toShortenFQNames="true">
+  <template name="iobject" value="import $emberObject$ { $methods$ } from '@ember/object';" description="Import the @ember/object" toReformat="false" toShortenFQNames="true">
     <variable name="emberObject" expression="enum(&quot;&quot;, &quot;EmberObject,&quot;)" defaultValue="" alwaysStopAt="true" />
-    <variable name="methods" expression="enum(&quot;aliasMethod&quot;, &quot;computed&quot;, &quot;expandProperties&quot;, &quot;extend&quot;, &quot;get&quot;, &quot;getProperties&quot;, &quot;getWithDefault&quot;, &quot;observer&quot;, &quot;set&quot;, &quot;setProperties&quot;, &quot;trySet&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="methods" expression="enum(&quot;&quot;, &quot;aliasMethod&quot;, &quot;computed&quot;, &quot;expandProperties&quot;, &quot;extend&quot;, &quot;get&quot;, &quot;getProperties&quot;, &quot;getWithDefault&quot;, &quot;observer&quot;, &quot;set&quot;, &quot;setProperties&quot;, &quot;trySet&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -99,6 +99,12 @@
     </context>
   </template>
   <template name="ideprecations" value="import { deprecate } from '@ember/application/deprecations';" description="Import the @ember/application/deprecations" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iarray" value="import { $methods$ } from '@ember/array';" description="Import the @ember/array" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;A&quot;, &quot;isArray&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
