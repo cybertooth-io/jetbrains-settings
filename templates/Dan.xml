@@ -1,0 +1,160 @@
+<templateSet group="Dan">
+  <template name="t(" value="&lt;%= t('$END$') -%&gt;" description="I18n.t() for ERB" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="com" value="&lt;%# $end$ -%&gt;" description="&lt;%# comment %&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RHTML" value="true" />
+    </context>
+  </template>
+  <template name="debug" value="Ember.Logger.debug($END$);" description="Ember logger debug-level." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="info" value="Ember.Logger.info($END$);" description="Ember logger info-level." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="warn" value="Ember.Logger.warn($END$);" description="Ember logger warn-level." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="error" value="Ember.Logger.error($END$);" description="Ember logger error-level." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="safe" value="Ember.String.htmlSafe($end$)" description="Ember.String.htmlSafe(...) stub" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="sep" value="# --------------------------------------------------------------------------------------------------------$end$" description="Ruby separator comment" toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="i18n" value="i18n: Ember.inject.service()," description="Inject i18n into a component or route's js." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="wait" value="return wait().then(() =&gt; {$end$});&#10;" description="In Ember tests create a wait block for an async call." toReformat="true" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="pageTitle" value="{{#page-title as |pageTitle|}}&#10;  {{#if pageTitle.title?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnOptions?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnReturnTo?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnHelp?}}&#10;    {{buttons.help-button documentName=&quot;&quot;}}&#10;  {{/if}}&#10;{{/page-title}}&#10;" description="" toReformat="true" toShortenFQNames="true" />
+  <template name="run" value="Ember.run(() =&gt;{&#10;  $end$&#10;});" description="Create an Ember.run(() =&gt; {}) block." toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="curr" value="current: Ember.inject.service()," description="Adding the `current` service to a route/component." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="cu" value="/**&#10; * The currentUser service; injected explicitly for runtime and integration tests.&#10; */&#10;currentUser: Ember.inject.service('currentUser')," description="Adding the currentUser to my component." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+      <option name="JS_EXPRESSION" value="false" />
+      <option name="JS_STATEMENT" value="false" />
+    </context>
+  </template>
+  <template name="filter" value="filter(&#10;  :$name$,&#10;  verify: lambda do |values, _context|&#10;   #raise JSONAPI::Exceptions::InvalidFilterValue.new(:$name$, nil) unless values.first.present?&#10;  end,&#10;  apply: lambda do |records, value, _options|&#10;   $end$&#10;  end&#10;)" description="Create a JSONAPI filter" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="RUBY" value="true" />
+    </context>
+  </template>
+  <template name="eq" value="assert.equal($actual$, $expected$);" description="Ember Test assert.equal(...)" toReformat="false" toShortenFQNames="true">
+    <variable name="actual" expression="" defaultValue="'actual'" alwaysStopAt="true" />
+    <variable name="expected" expression="" defaultValue="'expected'" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ok" value="assert.$ok$($actual$);" description="Ember Test assert.ok(...)" toReformat="true" toShortenFQNames="true">
+    <variable name="actual" expression="" defaultValue="true" alwaysStopAt="true" />
+    <variable name="ok" expression="complete()" defaultValue="&quot;ok&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="smirage" value="startMirage(this.container);" description="The start of mirage inside the beforeEach() block of an Ember unit test." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imirage" value="import { startMirage } from 'valet/initializers/ember-cli-mirage';" description="Import mirage inside an Ember unit test." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iember" value="import Ember from 'ember';" description="Import Ember." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iwait" value="import wait from 'ember-test-helpers/wait';" description="Import the Ember wait helper inside an Ember unit test." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iskip" value="import { skip } from 'qunit';" description="Import the QUnit wait helper inside an Ember unit test." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="itran" value="import { translationMacro as t } from 'ember-i18n';" description="Import the Ember `t` macro inside an Ember class." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="jshint" value="// jshint ignore:line" description="A javascript comment with: jshint ignore:line" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="store" value="store: Ember.inject.service()," description="Inject store into a component or route's js." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="service" value="this.register('service:$type$', Ember.Service.extend({$end$}));&#10;this.inject.service('$type$');&#10;" description="Insert a service stub for unit tests." toReformat="true" toShortenFQNames="true">
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="before" value="beforeEach() {&#10;  this.register('service:current', Ember.Service.extend({ systemTimezone: moment.tz.guess() }));&#10;  this.inject.service('current');&#10;}" description="Ember test `beforeEach` block including the current service." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="false" />
+    </context>
+  </template>
+  <template name="ihelpers" value="import StringHelpers from 'valet/tests/helpers/string-helpers';" description="Import our Valet's custom StringHelpers class." toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

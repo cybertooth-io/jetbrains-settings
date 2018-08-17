@@ -1,0 +1,106 @@
+<templateSet group="Ember.js-2.16+ Import Templates">
+  <template name="icomputed" value="import { $methods$ } from '@ember/object/computed';" description="Import the @ember/object/computed" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;alias&quot;, &quot;and&quot;, &quot;bool&quot;, &quot;collect&quot;, &quot;deprecatingAlias&quot;, &quot;empty&quot;, &quot;equal&quot;, &quot;filter&quot;, &quot;filterBy&quot;, &quot;gt&quot;, &quot;gte&quot;, &quot;intersect&quot;, &quot;lt&quot;, &quot;lte&quot;, &quot;map&quot;, &quot;mapBy&quot;, &quot;match&quot;, &quot;max&quot;, &quot;min&quot;, &quot;none&quot;, &quot;not&quot;, &quot;notEmpty&quot;, &quot;oneWay&quot;, &quot;or&quot;, &quot;readOnly&quot;, &quot;reads&quot;, &quot;setDiff&quot;, &quot;sort&quot;, &quot;sum&quot;, &quot;union&quot;, &quot;uniq&quot;, &quot;uniqBy&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ievented" value="import { on } from '@ember/object/evented';" description="Import the @ember/object/evented" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iobject" value="import $emberObject$ { $methods$ } from '@ember/object';" description="Import the @ember/object" toReformat="true" toShortenFQNames="true">
+    <variable name="emberObject" expression="enum(&quot;&quot;, &quot;EmberObject,&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="methods" expression="enum(&quot;aliasMethod&quot;, &quot;computed&quot;, &quot;expandProperties&quot;, &quot;extend&quot;, &quot;get&quot;, &quot;getProperties&quot;, &quot;getWithDefault&quot;, &quot;observer&quot;, &quot;set&quot;, &quot;setProperties&quot;, &quot;trySet&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iapplication" value="import { $methods$ } from '@ember/application';" description="Import the @ember/application" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;getOwner&quot;, &quot;setOwner&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="icontroller" value="import { inject } from '@ember/controller';" description="Import the @ember/controller" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="idebug" value="import { $methods$ } from '@ember/debug';" description="Import the @ember/debug" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;assert&quot;, &quot;debug&quot;, &quot;registerDeprecationHandler&quot;, &quot;registerWarnHandler&quot;, &quot;runInDebug&quot;, &quot;warn&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ievents" value="import { $methods$ } from '@ember/object/events';" description="Import the @ember/object/events" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;addListener&quot;, &quot;removeListener&quot;, &quot;sendEvent&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iinternals" value="import { $methods$ } from '@ember/object/internals';" description="Import the @ember/object/internals" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;cacheFor&quot;, &quot;copy&quot;, &quot;guidFor&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imixin" value="import { create } from '@ember/object/mixin';" description="Import the @ember/object/mixin" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iobservers" value="import { $methods$ } from '@ember/object/observers';" description="Import the @ember/object/observers" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;addObserver&quot;, &quot;removeObserver&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ipolyfills" value="import { $methods$ } from '@ember/polyfills';" description="Import the @ember/polyfills" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;assign&quot;, &quot;merge&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="irunloop" value="import { $methods$ } from '@ember/runloop';" description="Import the @ember/runloop" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;begin&quot;, &quot;bind&quot;, &quot;cancel&quot;, &quot;debounce&quot;, &quot;end&quot;, &quot;join&quot;, &quot;later&quot;, &quot;next&quot;, &quot;once&quot;, &quot;run&quot;, &quot;schedule&quot;, &quot;scheduleOnce&quot;, &quot;throttle&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iservice" value="import $choices$ from '@ember/service';" description="Import the @ember/service" toReformat="true" toShortenFQNames="true">
+    <variable name="choices" expression="enum(&quot;Service&quot;, &quot;Service, { inject }&quot;, &quot;{ inject }&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="istring" value="import { $methods$ } from '@ember/string';" description="Import the @ember/string" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;htmlSafe&quot;, &quot;isHTMLSafe&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="iutils" value="import { $methods$ } from '@ember/utils';" description="Import the @ember/utils" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;isBlank&quot;, &quot;isEmpty&quot;, &quot;isNone&quot;, &quot;isPresent&quot;, &quot;typeOf&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="irsvp" value="import { $methods$ } from 'rsvp';" description="Import the @ember/rsvp" toReformat="true" toShortenFQNames="true">
+    <variable name="methods" expression="enum(&quot;all&quot;, &quot;allSettled&quot;, &quot;defer&quot;, &quot;denodeify&quot;, &quot;filter&quot;, &quot;hash&quot;, &quot;hashSettled&quot;, &quot;map&quot;, &quot;race&quot;, &quot;reject&quot;, &quot;resolve&quot;, &quot;rethrow&quot;)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ijquery" value="import $ from 'jquery';" description="Import the jquery" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ideprecations" value="import { deprecate } from '@ember/application/deprecations';" description="Import the @ember/application/deprecations" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
