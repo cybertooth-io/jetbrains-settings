@@ -54,7 +54,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pageTitle" value="{{#page-title as |pageTitle|}}&#10;  {{#if pageTitle.title?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnOptions?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnReturnTo?}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnHelp?}}&#10;    {{buttons.help-button documentName=&quot;&quot;}}&#10;  {{/if}}&#10;{{/page-title}}&#10;" description="" toReformat="true" toShortenFQNames="true" />
   <template name="run" value="Ember.run(() =&gt;{&#10;  $end$&#10;});" description="Create an Ember.run(() =&gt; {}) block." toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -183,12 +182,6 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="pagetitle" value="{{#page-title as |pageTitle|}}&#10;  {{#if pageTitle.title?}}&#10;    $end$&#10;    &lt;small&gt;&lt;/small&gt;&#10;  {{/if}}&#10;  {{#if pageTitle.btnOptions?}}&#10;    {{#button-dropdown/options btnClass=&quot;btn-primary&quot;}}&#10;    {{/button-dropdown/options}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnReturnTo?}}&#10;    {{#button-dropdown/return-to}}&#10;    {{/button-dropdown/return-to}}&#10;  {{/if}}&#10;  {{#if pageTitle.btnHelp?}}&#10;    {{buttons/help-button documentName=&quot;&quot;}}&#10;  {{/if}}&#10;{{/page-title}}&#10;" description="Create the page title component for all Valet screens." toReformat="false" toShortenFQNames="true">
-    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Handlebars" value="true" />
-    </context>
-  </template>
   <template name="itran" value="import { translationMacro as t } from 'ember-i18n';" description="Import the Ember `t` macro inside an Ember class." toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -217,6 +210,13 @@
   <template name="modelFor" value="const $end$ = this.modelFor($route$);" description="Use modelFor to grab an instance from the route." toReformat="false" toShortenFQNames="true">
     <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="route" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=".then" value=".then((/*response*/) =&gt; {&#10;  this.get('notify')&#10;    .success(this.get('i18n').t('templates.common.notify.success.$operation$', {&#10;      name: this.get('i18n').t('models.$model$.one')&#10;    }));&#10;})&#10;.catch((/*errors*/) =&gt; {&#10;  this.get('notify')&#10;    .error(this.get('i18n').t('templates.common.notify.error.$operation$', {&#10;      name: this.get('i18n').t('models.$model$.one')&#10;    }));&#10;});" description="The standard then." toReformat="false" toShortenFQNames="true">
+    <variable name="operation" expression="enum(&quot;create&quot;, &quot;destroy&quot;, &quot;save&quot;, &quot;update&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
