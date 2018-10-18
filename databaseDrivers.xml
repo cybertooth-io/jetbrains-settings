@@ -1,11 +1,19 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="163">
-    <driver id="exasol">
-      <artifact name="Exasol" use="true" />
+    <driver id="db2">
+      <artifact name="DB2" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="db2.jtopen">
+      <artifact name="JTOpen (DB2 iSeries)" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="derby.remote">
+      <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="h2.unified">
-      <artifact name="H2" use="true" />
+    <driver id="derby.embedded">
+      <artifact name="Apache Derby" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="azure.ms">
@@ -13,13 +21,77 @@
       <option name="auto-sync" value="false" />
       <option name="send-app-info" value="false" />
     </driver>
+    <driver id="sqlserver.ms">
+      <artifact name="SQL Server" use="true" version="4.0.2206.100" />
+      <option name="auto-sync" value="false" />
+      <option name="send-app-info" value="false" />
+      <option name="auto-commit" value="true" />
+    </driver>
+    <driver id="sqlserver.jtds">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sybase.jtds">
+      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="sybase.ase">
+      <option name="auto-sync" value="false" />
+    </driver>
+    <driver id="mysql">
+      <artifact name="MySQL Connector/J" use="true" version="5.1.45" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+    </driver>
+    <driver id="mariadb">
+      <artifact name="MariaDB Connector J" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
     <driver id="oracle">
       <artifact name="Oracle" use="true" />
       <option name="auto-sync" value="false" />
       <option name="auto-commit" value="false" />
     </driver>
-    <driver id="derby.embedded">
-      <artifact name="Apache Derby" use="true" />
+    <driver id="postgresql">
+      <artifact name="PostgreSQL" use="true" version="42.2.2" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+    </driver>
+    <driver id="redshift">
+      <artifact name="Redshift" use="true" />
+      <option name="auto-sync" value="true" />
+      <option name="schema-control" value="MANUAL" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+      <code-style-scheme-name>Default</code-style-scheme-name>
+    </driver>
+    <driver id="hsqldb.remote">
+      <artifact name="HSQLDB" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="hsqldb.local">
+      <artifact name="HSQLDB" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="h2.unified">
+      <artifact name="H2" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="sqlite.xerial">
+      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
+      <option name="auto-sync" value="true" />
+      <option name="auto-commit" value="true" />
+      <option name="send-app-info" value="true" />
+    </driver>
+    <driver id="exasol">
+      <artifact name="Exasol" use="true" />
+      <option name="auto-sync" value="true" />
+    </driver>
+    <driver id="clickhouse">
+      <artifact name="ClickHouse" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="4aab8fd3-ed75-4ea3-9cb6-46ae7b686016" name="Rails valet: development driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
@@ -34,67 +106,6 @@
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/PostgreSQL/9.4-1201/postgresql-driver-license.txt</url>
       </library>
     </driver>
-    <driver id="sybase.jtds">
-      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="sqlserver.jtds">
-      <artifact name="jTDS (SQL Server and Sybase)" use="true" />
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="hsqldb.local">
-      <artifact name="HSQLDB" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="mariadb">
-      <artifact name="MariaDB Connector J" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="derby.remote">
-      <artifact name="Apache Derby" use="true" />
-      <option name="auto-sync" value="true" />
-    </driver>
-    <driver id="sqlite.xerial">
-      <artifact name="Xerial SQLiteJDBC" use="true" version="3.16.1" />
-      <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-    </driver>
-    <driver id="sybase.ase">
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="postgresql">
-      <artifact name="PostgreSQL" use="true" version="42.2.2" />
-      <option name="auto-sync" value="true" />
-      <option name="schema-control" value="MANUAL" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-    </driver>
-    <driver id="redshift">
-      <artifact name="Redshift" use="true" />
-      <option name="auto-sync" value="true" />
-      <option name="schema-control" value="MANUAL" />
-    </driver>
-    <driver id="db2">
-      <artifact name="DB2" use="true" />
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="sqlserver.ms">
-      <artifact name="SQL Server" use="true" version="4.0.2206.100" />
-      <option name="auto-sync" value="false" />
-      <option name="send-app-info" value="false" />
-      <option name="auto-commit" value="true" />
-    </driver>
-    <driver id="db2.jtopen">
-      <artifact name="JTOpen (DB2 iSeries)" use="true" />
-      <option name="auto-sync" value="false" />
-    </driver>
-    <driver id="mysql">
-      <artifact name="MySQL Connector/J" use="true" version="5.1.45" />
-      <option name="auto-sync" value="true" />
-      <option name="auto-commit" value="true" />
-      <option name="send-app-info" value="true" />
-    </driver>
     <driver id="1e3ade4c-373c-46e5-828a-efabad8df2d9" name="Rails valet: development driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:{file::identifier.sqlite}?" />
       <artifact name="Xerial SQLiteJDBC" use="true" version="3.8.11.2" />
@@ -106,10 +117,6 @@
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.7.6.3-20110609.081603-3.jar</url>
       </library>
-    </driver>
-    <driver id="hsqldb.remote">
-      <artifact name="HSQLDB" use="true" />
-      <option name="auto-sync" value="true" />
     </driver>
   </component>
 </application>
