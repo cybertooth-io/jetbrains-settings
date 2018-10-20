@@ -13790,6 +13790,28 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.1/gems/jsonapi-authorization-1.0.0.alpha5/bin" />
       </excluded>
     </library>
+    <library name="jsonapi-authorization (v1.0.0.beta2, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/docs" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/docs" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/docs" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jsonapi-authorization-1.0.0.beta2/gemfiles" />
+      </excluded>
+    </library>
     <library name="jsonapi-resources (v0.6.1, RVM: ruby-2.2.1) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.1/gems/jsonapi-resources-0.6.1/lib" />
