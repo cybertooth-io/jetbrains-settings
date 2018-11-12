@@ -2,6 +2,6 @@
   <component name="TerminalOptionsProvider">
     <option name="myCopyOnSelection" value="false" />
     <option name="myPasteOnMiddleMouseButton" value="false" />
-    <option name="myTabName" value="ruby" />
+    <option name="myTabName" value="project-root" />
   </component>
 </application>
