@@ -10,6 +10,7 @@
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping ext="config" type="PLAIN_TEXT" />
       <mapping ext="dump" type="PLAIN_TEXT" />
+      <mapping ext="keys" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="scssc" type="PLAIN_TEXT" />
       <mapping ext="rsa" type="PLAIN_TEXT" />
