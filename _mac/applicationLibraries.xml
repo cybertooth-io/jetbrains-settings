@@ -23629,22 +23629,6 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/jwt-2.1.0/spec" />
       </excluded>
     </library>
-    <library name="jwt (v2.1.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="3" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
-      </excluded>
-    </library>
     <library name="jwt (v2.1.0, RVM: ruby-2.5.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -23661,22 +23645,6 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/jwt-2.1.0/spec" />
       </excluded>
     </library>
-    <library name="jwt_sessions (v2.2.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="3" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.1/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.1/test" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.1/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.1/test" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.1/test" />
-      </excluded>
-    </library>
     <library name="jwt_sessions (v2.2.2, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -23691,22 +23659,6 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/jwt_sessions-2.2.2/test" />
-      </excluded>
-    </library>
-    <library name="jwt_sessions (v2.2.2, RVM: ruby-2.5.1) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="3" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/lib" />
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
       </excluded>
     </library>
     <library name="jwt_sessions (v2.2.2, RVM: ruby-2.5.3) [gem]" type="rubylib">
