@@ -12,6 +12,7 @@
       <mapping ext="dump" type="PLAIN_TEXT" />
       <mapping ext="key" type="PLAIN_TEXT" />
       <mapping ext="scssc" type="PLAIN_TEXT" />
+      <mapping ext="rsa" type="PLAIN_TEXT" />
       <mapping ext="axlsx" type="Ruby" />
       <mapping pattern=".ebextensions/*.config" type="YAML" />
     </extensionMap>
