@@ -1731,6 +1731,22 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/addressable-2.5.2/tasks" />
       </excluded>
     </library>
+    <library name="aes_key_wrap (v1.0.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aes_key_wrap-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aes_key_wrap-1.0.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aes_key_wrap-1.0.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aes_key_wrap-1.0.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aes_key_wrap-1.0.1/bin" />
+      </excluded>
+    </library>
     <library name="amoeba (v3.0.0, RVM: ruby-2.2.3) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.2.3/gems/amoeba-3.0.0/lib" />
@@ -11357,6 +11373,25 @@
       </properties>
       <CLASSES />
       <SOURCES />
+    </library>
+    <library name="bindata (v2.4.4, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/bindata-2.4.4/examples" />
+      </excluded>
     </library>
     <library name="bindex (v0.5.0, RVM: ruby-2.3.0) [gem]">
       <CLASSES>
@@ -23245,6 +23280,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/rubies/ruby-2.5.3/lib/ruby/2.5.0/json/add" />
+      </excluded>
+    </library>
+    <library name="json-jwt (v1.9.4, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-jwt-1.9.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-jwt-1.9.4/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-jwt-1.9.4/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-jwt-1.9.4/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/json-jwt-1.9.4/spec" />
       </excluded>
     </library>
     <library name="jsonapi-authorization (v1.0.0.alpha5, RVM: ruby-2.4.1) [gem]" type="rubylib">
