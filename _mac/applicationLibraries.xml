@@ -2995,6 +2995,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-batch-1.10.1/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-batch (v1.11.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-batch-1.11.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-batch-1.11.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-budgets (v1.14.1, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -3158,6 +3169,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-cloudformation-1.11.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-cloudformation (v1.12.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-cloudformation-1.12.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-cloudformation-1.12.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-cloudfront (v1.10.1, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -3356,6 +3378,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-cloudtrail-1.6.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-cloudtrail (v1.7.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-cloudtrail-1.7.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-cloudtrail-1.7.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-cloudwatch (v1.12.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -3785,6 +3818,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-configservice-1.19.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-configservice (v1.20.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-configservice-1.20.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-configservice-1.20.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-connect (v1.8.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -4284,6 +4328,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-devicefarm-1.12.0/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-devicefarm (v1.13.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-devicefarm-1.13.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-devicefarm-1.13.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-directconnect (v1.9.1, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -4480,6 +4535,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-ec2-1.57.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-ec2 (v1.58.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-ec2-1.58.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-ec2-1.58.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-ecr (v1.8.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -5241,6 +5307,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-iot-1.18.0/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-iot (v1.19.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-iot-1.19.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-iot-1.19.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-iot1clickdevicesservice (v1.5.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -5637,6 +5714,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-lambda-1.13.0/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-lambda (v1.14.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-lambda-1.14.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-lambda-1.14.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-lambdapreview (v1.5.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -5767,6 +5855,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-lightsail-1.10.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-lightsail (v1.11.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-lightsail-1.11.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-lightsail-1.11.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-machinelearning (v1.5.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -5965,6 +6064,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-mediaconvert-1.16.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-mediaconvert (v1.17.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-mediaconvert-1.17.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-mediaconvert-1.17.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-medialive (v1.15.1, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -6669,6 +6779,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-rds-1.38.1/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-rds (v1.39.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-rds-1.39.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-rds-1.39.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-redshift (v1.15.1, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -7993,6 +8114,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-workdocs-1.6.0/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk-workdocs (v1.7.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-workdocs-1.7.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-workdocs-1.7.0/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk-workmail (v1.6.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -8024,6 +8156,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.3/gems/aws-sdk-workmail-1.6.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-workspaces (v1.10.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-workspaces-1.10.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/aws-sdk-workspaces-1.10.0/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-workspaces (v1.9.0, RVM: ruby-2.4.4) [gem]" type="rubylib">
@@ -12585,6 +12728,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/debase-0.2.2/test" />
       </excluded>
     </library>
+    <library name="debase (v0.2.2, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.2/test" />
+      </excluded>
+    </library>
     <library name="debase (v0.2.2.beta11, RVM: ruby-2.3.3) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/debase-0.2.2.beta11/ext" />
@@ -12663,6 +12825,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/debase-0.2.3.beta2/test" />
       </excluded>
     </library>
+    <library name="debase (v0.2.3.beta2, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-0.2.3.beta2/test" />
+      </excluded>
+    </library>
     <library name="debase-ruby_core_source (v0.10.0, RVM: ruby-2.3.3) [gem]">
       <CLASSES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.3/gems/debase-ruby_core_source-0.10.0/lib" />
@@ -12691,6 +12872,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/debase-ruby_core_source-0.10.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="debase-ruby_core_source (v0.10.4, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-ruby_core_source-0.10.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/debase-ruby_core_source-0.10.4/lib" />
       </SOURCES>
     </library>
     <library name="debase-ruby_core_source (v0.7.9, RVM: ruby-2.1.3) [gem]" type="rubylib">
@@ -35145,6 +35337,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/ruby-debug-ide-0.7.0.beta7/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.3.7/gems/ruby-debug-ide-0.7.0.beta7/ext" />
+      </excluded>
+    </library>
+    <library name="ruby-debug-ide (v0.7.0.beta7, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/ext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/ruby-debug-ide-0.7.0.beta7/ext" />
       </excluded>
     </library>
     <library name="ruby-enum (v0.7.1, RVM: ruby-2.3.7) [gem]" type="rubylib">
