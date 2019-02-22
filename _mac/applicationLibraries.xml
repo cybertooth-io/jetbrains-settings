@@ -19422,6 +19422,35 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/doorkeeper-5.0.2/gemfiles" />
       </excluded>
     </library>
+    <library name="doorkeeper (v5.0.2, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/spec" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/spec" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/vendor" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/spec" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/config" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/doorkeeper-5.0.2/gemfiles" />
+      </excluded>
+    </library>
     <library name="doorkeeper (v5.0.2, RVM: ruby-2.5.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -21154,6 +21183,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/faraday-0.15.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="faraday (v0.15.3, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/faraday-0.15.3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/faraday-0.15.3/lib" />
       </SOURCES>
     </library>
     <library name="faraday (v0.15.3, RVM: ruby-2.5.3) [gem]" type="rubylib">
@@ -28297,6 +28337,22 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/jwt-2.1.0/spec" />
       </excluded>
     </library>
+    <library name="jwt (v2.1.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt-2.1.0/spec" />
+      </excluded>
+    </library>
     <library name="jwt (v2.1.0, RVM: ruby-2.5.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -28327,6 +28383,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/jwt_sessions-2.2.2/test" />
+      </excluded>
+    </library>
+    <library name="jwt_sessions (v2.2.2, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/jwt_sessions-2.2.2/test" />
       </excluded>
     </library>
     <library name="jwt_sessions (v2.2.2, RVM: ruby-2.5.3) [gem]" type="rubylib">
@@ -32002,6 +32074,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/multi_json-1.13.1/lib" />
       </SOURCES>
     </library>
+    <library name="multi_json (v1.13.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multi_json-1.13.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multi_json-1.13.1/lib" />
+      </SOURCES>
+    </library>
     <library name="multi_json (v1.13.1, RVM: ruby-2.5.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="3" />
@@ -32134,6 +32217,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/multi_xml-0.6.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="multi_xml (v0.6.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multi_xml-0.6.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multi_xml-0.6.0/lib" />
       </SOURCES>
     </library>
     <library name="multi_xml (v0.6.0, RVM: ruby-2.5.3) [gem]" type="rubylib">
@@ -32273,6 +32367,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/multipart-post-2.0.0/test" />
+      </excluded>
+    </library>
+    <library name="multipart-post (v2.0.0, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multipart-post-2.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multipart-post-2.0.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multipart-post-2.0.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multipart-post-2.0.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/multipart-post-2.0.0/test" />
       </excluded>
     </library>
     <library name="multipart-post (v2.0.0, RVM: ruby-2.5.3) [gem]" type="rubylib">
@@ -33600,6 +33710,22 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.4.4/gems/oauth2-1.4.1/gemfiles" />
+      </excluded>
+    </library>
+    <library name="oauth2 (v1.4.1, RVM: ruby-2.5.1) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="3" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/oauth2-1.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/oauth2-1.4.1/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/oauth2-1.4.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/oauth2-1.4.1/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.5.1/gems/oauth2-1.4.1/gemfiles" />
       </excluded>
     </library>
     <library name="oauth2 (v1.4.1, RVM: ruby-2.5.3) [gem]" type="rubylib">
