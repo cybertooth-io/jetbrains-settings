@@ -35,6 +35,27 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actioncable-6.0.0.beta3/lib" />
       </SOURCES>
     </library>
+    <library name="actioncable (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable/test" />
+      </excluded>
+    </library>
     <library name="actionmailbox (v6.0.0.beta3, RVM: ruby-2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -54,6 +75,33 @@
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actionmailbox-6.0.0.beta3/db" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actionmailbox-6.0.0.beta3/config" />
+      </excluded>
+    </library>
+    <library name="actionmailbox (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox/config" />
       </excluded>
     </library>
     <library name="actionmailer (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
@@ -100,6 +148,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actionmailer-6.0.0.beta3/lib" />
       </SOURCES>
     </library>
+    <library name="actionmailer (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer/test" />
+      </excluded>
+    </library>
     <library name="actionpack (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -144,6 +211,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actionpack-6.0.0.beta3/lib" />
       </SOURCES>
     </library>
+    <library name="actionpack (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack/test" />
+      </excluded>
+    </library>
     <library name="actiontext (v6.0.0.beta3, RVM: ruby-2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -160,6 +246,30 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actiontext-6.0.0.beta3/db" />
+      </excluded>
+    </library>
+    <library name="actiontext (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext/test" />
       </excluded>
     </library>
     <library name="actionview (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
@@ -205,6 +315,27 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/actionview-6.0.0.beta3/lib" />
       </SOURCES>
+    </library>
+    <library name="actionview (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview/test" />
+      </excluded>
     </library>
     <library name="active_model_serializers (v0.8.3, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
@@ -269,6 +400,25 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activejob-6.0.0.beta3/lib" />
       </SOURCES>
     </library>
+    <library name="activejob (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob/test" />
+      </excluded>
+    </library>
     <library name="activemodel (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -312,6 +462,25 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activemodel-6.0.0.beta3/lib" />
       </SOURCES>
+    </library>
+    <library name="activemodel (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel/test" />
+      </excluded>
     </library>
     <library name="activerecord (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
@@ -377,6 +546,28 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activerecord-6.0.0.beta3/examples" />
       </excluded>
     </library>
+    <library name="activerecord (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord/examples" />
+      </excluded>
+    </library>
     <library name="activestorage (v5.2.2, RVM: ruby-2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -440,6 +631,33 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activestorage-6.0.0.beta3/config" />
       </excluded>
     </library>
+    <library name="activestorage (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/app" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/db" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/test" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage/config" />
+      </excluded>
+    </library>
     <library name="activesupport (v4.2.10, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -494,6 +712,25 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/activesupport-6.0.0.beta3/lib" />
       </SOURCES>
+    </library>
+    <library name="activesupport (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport/test" />
+      </excluded>
     </library>
     <library name="addressable (v2.4.0, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
@@ -986,11 +1223,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.12" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/spec" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.12" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/lib" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/bcrypt-3.1.12/spec" />
@@ -2752,10 +2991,12 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jaro_winkler-1.5.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jaro_winkler-1.5.2/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.2" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jaro_winkler-1.5.2/ext" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jaro_winkler-1.5.2/lib" />
       </SOURCES>
@@ -3115,6 +3356,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jsonapi-resources-0.9.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="jsonapi-resources (v0.9.6, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jsonapi-resources-0.9.6/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/jsonapi-resources-0.9.6/lib" />
       </SOURCES>
     </library>
     <library name="jwt (v1.5.6, RVM: ruby-2.3.8) [gem]" type="rubylib">
@@ -4184,6 +4436,17 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parallel-1.14.0/lib" />
       </SOURCES>
     </library>
+    <library name="parallel (v1.17.0, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parallel-1.17.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parallel-1.17.0/lib" />
+      </SOURCES>
+    </library>
     <library name="parser (v2.4.0.2, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -4229,6 +4492,31 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.0.0/bin" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.0.0/doc" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.0.0/test" />
+      </excluded>
+    </library>
+    <library name="parser (v2.6.2.1, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/doc" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/parser-2.6.2.1/test" />
       </excluded>
     </library>
     <library name="pathutil (v0.16.1, RVM: ruby-2.6.2) [gem]" type="rubylib">
@@ -4811,6 +5099,71 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="rails (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.git" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tasks" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tools" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.git" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tasks" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tools" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/ci" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.git" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tasks" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/tools" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/guides" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/.github" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activejob" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionpack" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actiontext" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionview" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actioncable" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activemodel" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailer" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activerecord" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/actionmailbox" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activestorage" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/activesupport" />
+      </excluded>
+    </library>
     <library name="rails-assets-bootstrap-tabcollapse (v0.2.4, RVM: ruby-2.3.8) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -5044,6 +5397,28 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/railties-6.0.0.beta3/exe" />
+      </excluded>
+    </library>
+    <library name="railties (v6.0.0.beta3@d2767a, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/bundler/gems/rails-d2767a0ff716/railties/test" />
       </excluded>
     </library>
     <library name="rainbow (v2.2.2, RVM: ruby-2.3.8) [gem]" type="rubylib">
@@ -5613,6 +5988,47 @@
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.66.0/exe" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.66.0/assets" />
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.66.0/config" />
+      </excluded>
+    </library>
+    <library name="rubocop (v0.67.2, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/bin" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/exe" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/assets" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-0.67.2/config" />
+      </excluded>
+    </library>
+    <library name="rubocop-performance (v1.1.0, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-performance-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-performance-1.1.0/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-performance-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-performance-1.1.0/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/rubocop-performance-1.1.0/config" />
       </excluded>
     </library>
     <library name="ruby-debug-ide (v0.7.0.beta7, RVM: ruby-2.3.8) [gem]" type="rubylib">
@@ -6884,6 +7300,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/zeitwerk-1.4.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="zeitwerk (v2.1.1, RVM: ruby-2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/zeitwerk-2.1.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.rvm/gems/ruby-2.6.2/gems/zeitwerk-2.1.1/lib" />
       </SOURCES>
     </library>
   </component>
