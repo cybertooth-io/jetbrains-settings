@@ -7,6 +7,7 @@
       <mapping pattern=".tool-versions" type="PLAIN_TEXT" />
       <mapping ext="axlsx" type="PLAIN_TEXT" />
       <mapping ext="dump" type="PLAIN_TEXT" />
+      <mapping ext="key" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
