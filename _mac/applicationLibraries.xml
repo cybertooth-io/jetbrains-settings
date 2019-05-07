@@ -3330,6 +3330,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/gems/jbuilder-2.6.0/gemfiles" />
       </excluded>
     </library>
+    <library name="jbuilder (v2.8.0@3895a7, asdf: 2.6.2) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/jbuilder-3895a7243f3d/gemfiles" />
+      </excluded>
+    </library>
     <library name="jbuilder (v2.8.0@7ff5e2, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
