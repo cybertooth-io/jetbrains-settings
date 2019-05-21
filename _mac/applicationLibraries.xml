@@ -1631,6 +1631,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.2/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/examples" />
       </excluded>
     </library>
+    <library name="axlsx (v2.1.0.pre@c8ac84, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c8ac844572b2/examples" />
+      </excluded>
+    </library>
     <library name="axlsx (v3.0.0.pre, asdf: 2.6.2) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -1667,6 +1689,28 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/axlsx-3.0.0.pre/test" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/axlsx-3.0.0.pre/examples" />
+      </excluded>
+    </library>
+    <library name="axlsx (v3.0.0.pre@c593a0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx-c593a08b2a92/examples" />
       </excluded>
     </library>
     <library name="axlsx_rails (v0.5.0, asdf: 2.3.8) [gem]" type="rubylib">
@@ -1731,6 +1775,25 @@
       </SOURCES>
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/axlsx_rails-0.5.2/spec" />
+      </excluded>
+    </library>
+    <library name="axlsx_rails (v0.5.2@4e9a8d, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/.git" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/bundler/gems/axlsx_rails-4e9a8d714198/spec" />
       </excluded>
     </library>
     <library name="bcrypt (v3.1.11, asdf: 2.3.8) [gem]" type="rubylib">
