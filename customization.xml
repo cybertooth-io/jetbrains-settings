@@ -14,5 +14,11 @@
       <path value="Default with Alt key" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="EditSource" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
   </component>
 </application>
