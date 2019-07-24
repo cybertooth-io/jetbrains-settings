@@ -4,27 +4,20 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <path value="Default with Alt key" />
+      <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="ActivateTerminalToolWindow" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <path value="Default with Alt key" />
+      <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="EditSource" is_action="true" action_type="1" position="4">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="FileStructurePopup" is_action="true" action_type="1" position="6">
-      <path value="root" />
-      <path value="Touch Bar" />
-      <path value="Default" />
-      <path value="Default with Cmd key" />
       <option name="myInitialPosition" value="-1" />
     </group>
   </component>
