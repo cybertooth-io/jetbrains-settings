@@ -4,14 +4,14 @@
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <path value="Default with Alt Key" />
+      <path value="Default with Alt key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="ActivateTerminalToolWindow" is_action="true" action_type="1" position="2">
       <path value="root" />
       <path value="Touch Bar" />
       <path value="Default" />
-      <path value="Default with Alt Key" />
+      <path value="Default with Alt key" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="EditSource" is_action="true" action_type="1" position="4">
