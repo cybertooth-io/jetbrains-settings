@@ -1523,6 +1523,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-2.11.318/lib" />
       </SOURCES>
     </library>
+    <library name="aws-sdk (v2.11.329, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-2.11.329/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-2.11.329/lib" />
+      </SOURCES>
+    </library>
     <library name="aws-sdk (v2.6.5, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -1581,6 +1592,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.318/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.318/apis" />
+      </excluded>
+    </library>
+    <library name="aws-sdk-core (v2.11.329, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/apis" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/apis" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-core-2.11.329/apis" />
       </excluded>
     </library>
     <library name="aws-sdk-core (v2.6.5, asdf: 2.6.3) [gem]" type="rubylib">
@@ -1644,6 +1674,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-resources-2.11.318/lib" />
+      </SOURCES>
+    </library>
+    <library name="aws-sdk-resources (v2.11.329, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-resources-2.11.329/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/aws-sdk-resources-2.11.329/lib" />
       </SOURCES>
     </library>
     <library name="aws-sdk-resources (v2.6.5, asdf: 2.6.3) [gem]" type="rubylib">
@@ -1754,11 +1795,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.11" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/spec" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.11" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.11/spec" />
@@ -1773,11 +1816,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.13" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/spec" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/bcrypt/3.1.13" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/bcrypt-3.1.13/spec" />
@@ -1850,12 +1895,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/binding_of_caller/0.7.2" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/examples" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/binding_of_caller/0.7.2" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.7.2/test" />
@@ -1872,12 +1919,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/binding_of_caller/0.8.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/examples" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/binding_of_caller/0.8.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/binding_of_caller-0.8.0/test" />
@@ -2047,11 +2096,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/byebug/11.0.1" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/exe" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/byebug/11.0.1" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/exe" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-11.0.1/lib" />
@@ -2066,11 +2117,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/byebug/8.2.5" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/byebug/8.2.5" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/byebug-8.2.5/lib" />
@@ -2435,11 +2488,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/debug_inspector/0.0.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/test" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/debug_inspector/0.0.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debug_inspector-0.0.3/test" />
@@ -2556,6 +2611,19 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/em-websocket-0.5.1/spec" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/em-websocket-0.5.1/examples" />
       </excluded>
+    </library>
+    <library name="ember-cli-rails (v0.10.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ember-cli-rails-0.10.0/app" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ember-cli-rails-0.10.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ember-cli-rails-0.10.0/app" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ember-cli-rails-0.10.0/lib" />
+      </SOURCES>
     </library>
     <library name="ember-cli-rails (v0.7.4, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
@@ -2773,11 +2841,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/ffi/1.11.1" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/samples" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/ffi/1.11.1" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ffi-1.11.1/samples" />
@@ -2878,6 +2948,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/fugit-1.3.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="fugit (v1.3.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/fugit-1.3.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/fugit-1.3.1/lib" />
       </SOURCES>
     </library>
     <library name="globalid (v0.4.1, asdf: 2.6.3) [gem]" type="rubylib">
@@ -3177,10 +3258,12 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/lib" />
       </SOURCES>
@@ -3427,6 +3510,7 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/json/1.8.6" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/data" />
@@ -3436,6 +3520,7 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/diagrams" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/json/1.8.6" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/json-1.8.6/data" />
@@ -4307,12 +4392,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/nokogiri/1.10.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/patches" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/nokogiri/1.10.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/nokogiri-1.10.3/lib" />
@@ -4499,6 +4586,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-4.0.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-4.0.0/example" />
+      </excluded>
+    </library>
+    <library name="omniauth-facebook (v5.0.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/example" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/example" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/omniauth-facebook-5.0.0/example" />
       </excluded>
     </library>
     <library name="omniauth-google-oauth2 (v0.4.1, asdf: 2.6.3) [gem]" type="rubylib">
@@ -4762,12 +4868,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/0.19.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/spec" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/sample" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/0.19.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.19.0/spec" />
@@ -4784,11 +4892,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/0.21.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/spec" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/0.21.0" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-0.21.0/spec" />
@@ -5708,6 +5818,22 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.0.4/test" />
       </excluded>
     </library>
+    <library name="rails-html-sanitizer (v1.2.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.2.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.2.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.2.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rails-html-sanitizer-1.2.0/test" />
+      </excluded>
+    </library>
     <library name="rails_12factor (v0.0.3, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -6004,11 +6130,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/rb-fsevent/0.10.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/rb-fsevent/0.10.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/lib" />
@@ -6110,17 +6238,38 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/2.6.0/rdoc/generator" />
       </excluded>
     </library>
+    <library name="rdoc (v6.1.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/exe" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/exe" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rdoc-6.1.1/exe" />
+      </excluded>
+    </library>
     <library name="redcarpet (v3.3.4, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/redcarpet/3.3.4" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/test" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/redcarpet/3.3.4" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.3.4/lib" />
@@ -6152,6 +6301,30 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.4.0/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.4.0/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.4.0/test" />
+      </excluded>
+    </library>
+    <library name="redcarpet (v3.5.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/redcarpet/3.5.0" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/redcarpet/3.5.0" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/redcarpet-3.5.0/test" />
       </excluded>
     </library>
     <library name="redis (v3.3.5, asdf: 2.6.3) [gem]" type="rubylib">
@@ -6802,6 +6975,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-0.4.2/spec" />
       </excluded>
     </library>
+    <library name="sdoc (v1.0.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sdoc-1.0.0/spec" />
+      </excluded>
+    </library>
     <library name="seed-fu (v2.3.6, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -6895,6 +7087,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-0.6.3/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-0.6.3/examples" />
+      </excluded>
+    </library>
+    <library name="sidekiq-cron (v1.1.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sidekiq-cron-1.1.0/examples" />
       </excluded>
     </library>
     <library name="simplecov (v0.16.1, asdf: 2.6.3) [gem]" type="rubylib">
@@ -7211,6 +7422,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/test_after_commit-0.5.1/lib" />
       </SOURCES>
     </library>
+    <library name="test_after_commit (v1.2.2, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/test_after_commit-1.2.2/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/test_after_commit-1.2.2/lib" />
+      </SOURCES>
+    </library>
     <library name="thor (v0.19.4, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -7490,6 +7712,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.0/spec" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.0/minitest" />
+      </excluded>
+    </library>
+    <library name="webmock (v3.6.2, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/minitest" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/minitest" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/webmock-3.6.2/minitest" />
       </excluded>
     </library>
     <library name="webrick (v1.4.2, asdf: 2.6.3) [gem]" type="rubylib">
