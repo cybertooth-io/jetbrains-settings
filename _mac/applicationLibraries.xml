@@ -2456,6 +2456,44 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.3.beta5/test" />
       </excluded>
     </library>
+    <library name="debase (v0.2.4, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.2.4/test" />
+      </excluded>
+    </library>
+    <library name="debase (v0.3.0.beta3, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/debase-0.3.0.beta3/test" />
+      </excluded>
+    </library>
     <library name="debase-ruby_core_source (v0.10.5, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -6625,6 +6663,25 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.7.0.beta7/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.7.0.beta7/ext" />
+      </excluded>
+    </library>
+    <library name="ruby-debug-ide (v0.8.0.beta3, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/ext" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/ruby-debug-ide-0.8.0.beta3/ext" />
       </excluded>
     </library>
     <library name="ruby-progressbar (v1.10.1, asdf: 2.6.3) [gem]" type="rubylib">
