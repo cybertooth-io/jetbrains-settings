@@ -14,6 +14,26 @@
       <path value="Default with Alt Key" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="EvaluateExpression" is_action="true" action_type="1" position="4">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="QuickEvaluateExpression" is_action="true" action_type="1" position="5">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Debugger" />
+      <path value="Debugger with Alt Key" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="EditSource" is_action="true" action_type="1" position="6">
+      <path value="root" />
+      <path value="Touch Bar" />
+      <path value="Default" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="FileStructurePopup" is_action="true" action_type="1" position="7">
       <path value="root" />
       <path value="Touch Bar" />
