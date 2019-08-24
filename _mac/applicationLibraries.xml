@@ -1596,6 +1596,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.8.0/gemfiles" />
       </excluded>
     </library>
+    <library name="audited (v4.9.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/audited-4.9.0/gemfiles" />
+      </excluded>
+    </library>
     <library name="auto_strip_attributes (v2.1.0, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -2172,6 +2194,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.5.3/.bundle" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.5.3/.github" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.5.3/gemfiles" />
+      </excluded>
+    </library>
+    <library name="browser (v2.6.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.bundle" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.bundle" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.bundle" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/.github" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/browser-2.6.1/gemfiles" />
       </excluded>
     </library>
     <library name="builder (v3.2.3, asdf: 2.6.3) [gem]" type="rubylib">
@@ -3497,10 +3544,12 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/jaro_winkler/1.5.3" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jaro_winkler-1.5.3/lib" />
       </SOURCES>
@@ -3861,6 +3910,39 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-1.0.0/docs" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-1.0.0/gemfiles" />
       </excluded>
+    </library>
+    <library name="jsonapi-authorization (v3.0.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/gemfiles" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/docs" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-authorization-3.0.1/gemfiles" />
+      </excluded>
+    </library>
+    <library name="jsonapi-resources (v0.9.10, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-resources-0.9.10/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jsonapi-resources-0.9.10/lib" />
+      </SOURCES>
     </library>
     <library name="jsonapi-resources (v0.9.2, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
@@ -5195,11 +5277,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/1.1.4" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/spec" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/rubystubs26/pg/1.1.4" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pg-1.1.4/spec" />
@@ -5421,6 +5505,22 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.0.1/spec" />
       </excluded>
     </library>
+    <library name="pundit (v2.1.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.1.0/spec" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.1.0/spec" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/pundit-2.1.0/spec" />
+      </excluded>
+    </library>
     <library name="raabro (v1.1.6, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -5575,6 +5675,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.5/lib" />
+      </SOURCES>
+    </library>
+    <library name="rack-protection (v2.0.7, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rack-protection-2.0.7/lib" />
       </SOURCES>
     </library>
     <library name="rack-proxy (v0.6.5, asdf: 2.6.3) [gem]" type="rubylib">
@@ -6943,6 +7054,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.2.1/config" />
       </excluded>
     </library>
+    <library name="rubocop-rails (v2.3.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-rails-2.3.0/config" />
+      </excluded>
+    </library>
     <library name="ruby-debug-ide (v0.7.0.beta7, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -7809,6 +7939,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/strong_migrations-0.4.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="strong_migrations (v0.4.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/strong_migrations-0.4.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/strong_migrations-0.4.1/lib" />
       </SOURCES>
     </library>
     <library name="terrapin (v0.6.0, asdf: 2.6.3) [gem]" type="rubylib">
