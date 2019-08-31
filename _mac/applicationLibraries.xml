@@ -1463,6 +1463,28 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.6.0/tasks" />
       </excluded>
     </library>
+    <library name="addressable (v2.7.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/tasks" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/tasks" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/spec" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/addressable-2.7.0/tasks" />
+      </excluded>
+    </library>
     <library name="aes_key_wrap (v1.0.1, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -3604,6 +3626,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jekyll-3.8.5/rubocop" />
       </excluded>
     </library>
+    <library name="jekyll (v4.0.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/rubocop" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/rubocop" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/exe" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-4.0.0/rubocop" />
+      </excluded>
+    </library>
     <library name="jekyll-assets (v3.0.12, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -3654,6 +3695,17 @@
       </CLASSES>
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/jekyll-sass-converter-1.5.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="jekyll-sass-converter (v2.0.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-sass-converter-2.0.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/jekyll-sass-converter-2.0.0/lib" />
       </SOURCES>
     </library>
     <library name="jekyll-seo-tag (v2.6.1, asdf: 2.6.3) [gem]" type="rubylib">
@@ -4028,6 +4080,47 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/kramdown-1.17.0/data" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/kramdown-1.17.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/kramdown-1.17.0/benchmark" />
+      </excluded>
+    </library>
+    <library name="kramdown (v2.1.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/man" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/data" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/man" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/data" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/bin" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/man" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/data" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-2.1.0/test" />
+      </excluded>
+    </library>
+    <library name="kramdown-parser-gfm (v1.1.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-parser-gfm-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-parser-gfm-1.1.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-parser-gfm-1.1.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-parser-gfm-1.1.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/kramdown-parser-gfm-1.1.0/test" />
       </excluded>
     </library>
     <library name="launchy (v2.4.3, asdf: 2.6.3) [gem]" type="rubylib">
@@ -4457,6 +4550,29 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/mini_portile2-2.4.0/test" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/mini_portile2-2.4.0/concourse" />
+      </excluded>
+    </library>
+    <library name="minima (v2.5.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_sass" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_layouts" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_includes" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_sass" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_layouts" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_includes" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_sass" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_layouts" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/minima-2.5.1/_includes" />
       </excluded>
     </library>
     <library name="minitest (v5.11.3, asdf: 2.6.3) [gem]" type="rubylib">
@@ -5426,6 +5542,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-3.1.1/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-3.1.1/data" />
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-3.1.1/test" />
+      </excluded>
+    </library>
+    <library name="public_suffix (v4.0.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/.github" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/.github" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/data" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/test" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/public_suffix-4.0.1/.github" />
       </excluded>
     </library>
     <library name="puma (v3.12.1, asdf: 2.6.3) [gem]" type="rubylib">
@@ -6829,6 +6970,22 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.3.0/bin" />
       </excluded>
     </library>
+    <library name="rouge (v3.9.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.9.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.9.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.9.0/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.9.0/lib" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rouge-3.9.0/bin" />
+      </excluded>
+    </library>
     <library name="rss (v0.2.7, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -7382,6 +7539,25 @@
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/sassc-2.0.1/test" />
       </excluded>
     </library>
+    <library name="sassc (v2.2.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/ext" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/ext" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/ext" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/sassc-2.2.0/test" />
+      </excluded>
+    </library>
     <library name="sassc-rails (v2.1.2, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -7927,6 +8103,22 @@
       <SOURCES>
         <root url="file://$USER_HOME$/.asdf/installs/Ruby/2.6.3/lib/ruby/gems/2.6.0/gems/strong_migrations-0.4.1/lib" />
       </SOURCES>
+    </library>
+    <library name="terminal-table (v1.8.0, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/terminal-table-1.8.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/terminal-table-1.8.0/lib" />
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/terminal-table-1.8.0/examples" />
+      </excluded>
     </library>
     <library name="terrapin (v0.6.0, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
