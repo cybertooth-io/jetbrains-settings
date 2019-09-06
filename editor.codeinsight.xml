@@ -17,5 +17,6 @@
     <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.reactive.server.WebFluxTags.status" />
     <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.servlet.WebMvcTags.status" />
     <EXCLUDED_PACKAGE NAME="org.springframework.http.ResponseEntity.status" />
+    <EXCLUDED_PACKAGE NAME="org.springframework.test.web.client.match.MockRestRequestMatchers.jsonPath" />
   </component>
 </application>
