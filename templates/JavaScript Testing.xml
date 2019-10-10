@@ -1,6 +1,7 @@
 <templateSet group="JavaScript Testing">
-  <template name="it" value="it('$NAME$', () =&gt; {&#10;  $END$&#10;}); " description="Inserts it() block" toReformat="true" toShortenFQNames="true">
+  <template name="it" value="it('$NAME$', $async$() =&gt; {&#10;  $END$&#10;}); " description="Inserts it() block" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="async" expression="enum(&quot;&quot;, &quot;async &quot;)" defaultValue="" alwaysStopAt="true" />
     <context />
   </template>
   <template name="ita" value="it('$NAME$', async () =&gt; {&#10;  $END$&#10;}); " description="Inserts it() block with async" toReformat="true" toShortenFQNames="true">
