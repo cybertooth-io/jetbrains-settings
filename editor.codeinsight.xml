@@ -1,22 +1,5 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="SHOW_PARAMETER_NAME_HINTS_ON_COMPLETION" value="true" />
     <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
-    <option name="REFORMAT_ON_PASTE" value="4" />
-    <option name="INDENT_TO_CARET_ON_PASTE" value="true" />
-    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.AssertionsForClassTypes.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.AssertionsForInterfaceTypes.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.assertj.core.api.Java6Assertions.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.hamcrest.MatcherAssert.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.junit.Assert.assertThat" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.health.Health.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.client.RestTemplateExchangeTags.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.reactive.client.WebClientExchangeTags.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.reactive.server.WebFluxTags.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.boot.actuate.metrics.web.servlet.WebMvcTags.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.http.ResponseEntity.status" />
-    <EXCLUDED_PACKAGE NAME="org.springframework.test.web.client.match.MockRestRequestMatchers.jsonPath" />
   </component>
 </application>
