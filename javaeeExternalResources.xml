@@ -1,5 +1,7 @@
 <application>
   <component name="ExternalResourceManagerImpl">
+    <resource url="http://jasperreports.sourceforge.net/jasperreports/components" location="$USER_HOME$/Library/Caches/IntelliJIdea2019.2/extResources/269e968d_components.xsd" />
+    <resource url="http://jasperreports.sourceforge.net/jasperreports/template" location="$USER_HOME$/Library/Caches/IntelliJIdea2019.2/extResources/4ee937f2_jaspertemplate.xsd" />
     <resource url="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" location="$USER_HOME$/Library/Caches/WebStorm2018.2/extResources/2889bd79_svg11.dtd" />
   </component>
 </application>
