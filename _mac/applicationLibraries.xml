@@ -5233,54 +5233,6 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.4/lib/ruby/gems/2.6.0/gems/liquid-tag-parser-1.9.0/lib" />
       </SOURCES>
     </library>
-    <library name="listen (v3.1.5, asdf: 2.6.3) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/listen-3.1.5/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/listen-3.1.5/lib" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/listen-3.1.5/bin" />
-      </excluded>
-    </library>
-    <library name="listen (v3.1.5, asdf: 2.6.4) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/lib" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-      </excluded>
-    </library>
-    <library name="listen (v3.1.5, asdf: 2.6.5) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/lib" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/listen-3.1.5/bin" />
-      </excluded>
-    </library>
     <library name="listen (v3.2.1, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -8504,44 +8456,6 @@
       <excluded>
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-      </excluded>
-    </library>
-    <library name="rb-fsevent (v0.10.3, asdf: 2.6.4) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/lib" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-      </excluded>
-    </library>
-    <library name="rb-fsevent (v0.10.3, asdf: 2.6.5) [gem]" type="rubylib">
-      <properties>
-        <option name="version" value="4" />
-      </properties>
-      <CLASSES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/lib" />
-      </CLASSES>
-      <SOURCES>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/lib" />
-      </SOURCES>
-      <excluded>
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/bin" />
-        <root url="file://$USER_HOME$/.gem/ruby/2.6.0/gems/rb-fsevent-0.10.3/ext" />
       </excluded>
     </library>
     <library name="rb-inotify (v0.10.0, asdf: 2.6.3) [gem]" type="rubylib">
