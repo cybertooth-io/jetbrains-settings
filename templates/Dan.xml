@@ -214,7 +214,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name=".then" value=".then((/*response*/) =&gt; {&#10;  this.get('notify')&#10;    .success(this.get('i18n').t('templates.common.notify.success.$operation$', {&#10;      name: this.get('i18n').t('models.$model$.one')&#10;    }));&#10;})&#10;.catch((/*errors*/) =&gt; {&#10;  this.get('notify')&#10;    .error(this.get('i18n').t('templates.common.notify.error.$operation$', {&#10;      name: this.get('i18n').t('models.$model$.one')&#10;    }));&#10;});" description="The standard then." toReformat="false" toShortenFQNames="true">
+  <template name=".then" value=".then((/*response*/) =&gt; {&#10;  this.notify.success(this.i18n.t('templates.common.notify.success.$operation$', {&#10;      name: this.i18n.t('models.$model$.one')&#10;    }));&#10;})&#10;.catch((/*errors*/) =&gt; {&#10;  this.notify.error(this.i18n.t('templates.common.notify.error.$operation$', {&#10;      name: this.i18n.t('models.$model$.one')&#10;    }));&#10;});" description="The standard then." toReformat="false" toShortenFQNames="true">
     <variable name="operation" expression="enum(&quot;create&quot;, &quot;destroy&quot;, &quot;save&quot;, &quot;update&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="model" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
