@@ -7024,6 +7024,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/parser-2.7.0.2/test" />
       </excluded>
     </library>
+    <library name="parser (v2.7.0.3, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/ci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/test" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/ci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/test" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/ci" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/doc" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/parser-2.7.0.3/test" />
+      </excluded>
+    </library>
     <library name="pathutil (v0.16.1, asdf: 2.6.4) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
@@ -9505,6 +9530,31 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.0/exe" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.0/assets" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.0/config" />
+      </excluded>
+    </library>
+    <library name="rubocop (v0.80.1, asdf: 2.6.3) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/exe" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/config" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/exe" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/lib" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/config" />
+      </SOURCES>
+      <excluded>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/bin" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/exe" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/assets" />
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/rubocop-0.80.1/config" />
       </excluded>
     </library>
     <library name="rubocop-performance (v1.4.0, asdf: 2.6.3) [gem]" type="rubylib">
