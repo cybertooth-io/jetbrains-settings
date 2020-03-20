@@ -10980,6 +10980,17 @@
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.3/lib/ruby/gems/2.6.0/gems/seed-fu-2.3.9/lib" />
       </SOURCES>
     </library>
+    <library name="seed-fu (v2.3.9, asdf: 2.6.5) [gem]" type="rubylib">
+      <properties>
+        <option name="version" value="4" />
+      </properties>
+      <CLASSES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/seed-fu-2.3.9/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file://$USER_HOME$/.asdf/installs/ruby/2.6.5/lib/ruby/gems/2.6.0/gems/seed-fu-2.3.9/lib" />
+      </SOURCES>
+    </library>
     <library name="selenium-webdriver (v3.142.3, asdf: 2.6.3) [gem]" type="rubylib">
       <properties>
         <option name="version" value="4" />
