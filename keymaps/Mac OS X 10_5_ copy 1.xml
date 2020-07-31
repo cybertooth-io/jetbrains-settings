@@ -1,0 +1,25 @@
+<keymap version="1" name="Mac OS X 10.5+ copy 1" parent="Mac OS X 10.5+">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 8" />
+  </action>
+  <action id="ActivateServicesToolWindow" />
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta w" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="ctrl alt a" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="ctrl alt b" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt right" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="shift ctrl alt left" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.SwitchCasePopup">
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
+  <action id="rspec.LetIntroduce" />
+</keymap>
