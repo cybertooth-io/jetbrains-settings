@@ -4031,12 +4031,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/ffi/1.13.1" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/.github" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/samples" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/ffi/1.13.1" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/ffi-1.13.1/.github" />
@@ -6961,12 +6963,14 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/nokogiri/1.10.10" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/lib" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/patches" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/nokogiri/1.10.10" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/nokogiri-1.10.10/lib" />
@@ -9430,11 +9434,13 @@
         <option name="version" value="4" />
       </properties>
       <CLASSES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/rb-fsevent/0.10.4" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/lib" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs27/rb-fsevent/0.10.4" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/bin" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/ext" />
         <root url="file://$USER_HOME$/.asdf/installs/ruby/2.7.1/lib/ruby/gems/2.7.0/gems/rb-fsevent-0.10.4/lib" />
